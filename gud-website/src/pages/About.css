@@ -1,0 +1,234 @@
+.about-container {
+    position: relative;
+    top:3.73rem;
+    height: 225vh;
+}
+
+.about-container h1{
+    margin-left: 13rem;
+}
+
+.pic-with-description{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11rem;
+    gap: 6rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pic-with-description p{
+    font-size: 2.3rem;
+    width: 50%;
+}
+
+.pic-with-description img{
+    width: 30%;
+    border-radius: 1.5rem;
+    align-self: flex-start;
+}
+
+.mission-section h3{
+    margin-left: 13rem;
+    margin-top: 4rem;
+    font-size: 1.7rem;
+}
+
+.mission-section p{
+    margin-left: 13rem;
+    width: 65%;
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+
+.focus-fields{
+    
+    width: 100%;
+    height: 50%;
+    margin-top: 4rem;
+
+}
+
+.focus-fields h2{
+    margin-left: 13rem;
+    
+}
+
+.focus-fields img{
+    width: 50%;
+    position: relative;
+    left: 2.5rem;
+    top: 2.1rem;
+}
+
+.focus-fields .three-sections{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    
+}
+
+.three-sections .ux,.ui,.pd{
+    background-color: white;
+    width: 17rem;
+    height: 13rem;
+    border-radius: 1rem;
+    margin-left: 4rem;
+}
+
+.three-sections h4{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 5.5rem;
+    left: .2rem;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+
+/* .three-sections .ui{
+    background-color: grey;
+    width: 15rem;
+    height: 12rem;
+}
+
+.three-sections .pd{
+    background-color: grey;
+    width: 15rem;
+    height: 12rem;
+} */
+
+
+.our-history {
+    margin-top: -45rem;
+}
+
+.our-history-title {
+    margin: 0 0;
+
+    width: auto;
+    margin-top: 2rem;
+    position: relative;
+    left: 45%;
+    top: 2rem;
+}
+
+.timeline {
+    width: 100%;
+}
+
+.timeline-container {
+    width: 80%;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 0;
+    padding-right: 3rem;
+    
+    position: relative;
+    top: 1rem;
+    left: 10%;
+  
+}
+.mobile-timeline {
+    width: 100%;
+    display: none; 
+}
+
+/* Mobile Views */
+
+@media (max-width:768px){
+    .about-container h1{
+        margin-left: 1.7rem;
+    }
+    .pic-with-description{
+        
+        flex-direction: column;
+        margin-left: 1.7rem;
+        gap: .5rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .pic-with-description p{
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: left;
+        color: #6E6E73;
+    }
+    .pic-with-description img{
+        width: 90%;
+        border-radius: 0rem;
+        margin-left: 0;
+    }
+    .mission-section h3{
+        margin-left: 1.7rem;
+        
+    }
+    .mission-section p{
+        margin-left: 1.7rem;
+        width: 90%;
+        padding: 1.7rem;
+        color: #6E6E73;
+        line-height: 1.2rem;
+    }
+    .focus-fields h2{
+        margin-left: 1.7rem;
+        
+    }
+    .three-sections .ux,.ui,.pd{
+        background-color: white;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 1rem;
+        margin-left: 1.3rem;
+    }
+    .focus-fields img{
+        width: 60%;
+        left: .09rem;
+        top: 1.4rem;
+    }
+    .three-sections h4{
+        font-size: .8rem;
+        text-transform: uppercase;
+        top: 1.8rem; 
+    }
+    .our-history-title {
+        display: none;
+    }
+    .timeline {
+        display: none;
+    }
+    .mobile-timeline {
+     display: block; /* Show mobile timeline in mobile view */
+        width: 100%; /* Set appropriate width for mobile */
+        height: max-content;
+        margin: 0 auto; /* Center the mobile timeline */
+    }
+    .timeline-container {
+        width: 100%;
+        justify-content: center;
+        padding-top: 2rem;
+        margin: auto auto;
+        padding-right: 3rem;
+        position: relative;
+        left: 1rem;
+        margin-top: 46rem;
+        padding-bottom: 0;
+       margin-bottom: 0;
+    }
+    .about-container{
+        height: 190vh;
+    }
+    .focus-fields{
+        height: min-content;
+    }
+
+    
+}

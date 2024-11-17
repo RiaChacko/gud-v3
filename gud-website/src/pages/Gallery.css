@@ -1,0 +1,38 @@
+.gallery-container {
+    position: relative;
+    top:3.73rem;
+    height: 115rem;
+}
+
+.photos-container {
+}
+
+.row {
+    width: fit-content;
+    margin: auto auto;
+}
+
+.gallery-pic {
+    height: 28vw;
+    width: auto;
+    padding: 1vw;
+}
+
+/* Mobile Views */
+
+@media (max-width: 768px) {
+    .gallery-container{
+        height: 48rem;
+        
+    }
+    .photos-container{
+        width: 100%;
+        height: auto;
+    }
+    .gallery-pic{
+        height: 38vw;
+        width: max-content;
+        margin: auto;
+        padding: 2vw;
+    }
+}

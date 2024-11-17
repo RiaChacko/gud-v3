@@ -1,0 +1,74 @@
+.events-container {
+    position: relative;
+    top:3.73rem;
+    height: 90rem;
+}
+
+.upcoming-events {
+    margin-top: 2.5rem;
+}
+
+.upcoming-events-container {
+    margin-left: 17rem;
+    margin-top: 2rem;
+    padding-bottom: 3.8rem;
+    padding-top: 0.5rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.google-calendar {
+    background-color: black;
+    padding: 0;
+    width: 72%;
+    margin: auto auto;
+}
+
+
+/*Mobile Views*/
+
+
+@media (max-width:768px) {
+    .events-container {
+        position: relative;
+        top: 3.73rem;
+        height: 120rem;
+    }
+    
+    .upcoming-events {
+        margin-top: 2.5rem;
+    }
+    
+    .upcoming-events-container {
+        margin-left: 4rem;
+        margin-top: 2rem;
+        padding-bottom: 3.8rem;
+        padding-top: 0.5rem;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+    
+    .google-calendar {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 90%;
+        background: black;
+        margin: 2rem auto; /* Add margin around the calendar */
+    }
+    
+    .google-calendar iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    
+}

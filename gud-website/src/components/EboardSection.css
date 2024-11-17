@@ -1,0 +1,24 @@
+.eboard-section-container {
+    margin-top: 0.2rem;
+    margin-left: 16.5rem;
+    padding: 0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+
+/* .single-eboard-card {
+    margin-right: 0;
+} */
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .eboard-section-container{
+        margin: .3rem;
+        display: grid; /* Switch to grid display for mobile */
+        grid-template-columns: repeat(2, 1fr); /* Define 2 columns */
+        gap: .7rem; /* Adjust the gap as needed for mobile view */
+    }
+}

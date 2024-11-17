@@ -1,0 +1,142 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.dt-container {
+    position: relative;
+    top:4rem;
+    height: 117rem;
+    left: 15rem;
+}
+
+.dt-container h1{
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+.design-team-desc{
+    width: 55%;
+    margin-left: 13rem;
+}
+
+.design-team-desc p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: gray;
+}
+
+.design-team-desc h3{
+    font-size: 1.5rem;
+}
+
+.request-desc{
+    width: 45%;
+    margin-left: 13rem;
+    margin-top: 4rem;
+}
+
+.request-desc p{
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: gray;
+}
+
+.request-desc h3{
+    font-size: 1.5rem;
+}
+
+
+.five-sections{
+    display: grid;
+    row-gap: 3rem;
+    column-gap: 10rem;
+    grid-template-columns: repeat(2, .05fr);
+    grid-template-rows: repeat(2,.05fr);
+    margin-left: 13rem;
+    margin-top: 3rem;
+
+    
+    
+}
+
+.teams-gud, .teams-fydt,.teams-colorstack,.teams-devlup, .teams-fydt23{
+    width: 25rem;
+    height: 22.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.07);
+
+}
+
+.fydt-img{
+    width: 100%;
+    height: 50%;
+}
+
+.fydt-img img{
+    object-fit: fill;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+
+.heading-desc h3{
+    position: relative;
+    top: 5.5rem;
+    left: 1.3rem;
+}
+
+.heading-desc p{
+    position: relative;
+    top: 5rem;
+    left: 1.3rem;
+    color: gray;
+
+}
+
+/* Mobile Views */
+
+@media (max-width:768px){
+    .dt-container{
+        left: 0;
+        height: 173rem;
+    }
+    .dt-container h1{
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .design-team-desc{
+        width: 90%;
+        margin-left: 2rem;
+    }
+    .design-team-desc p{
+        font-size: .8rem;
+        width: 100%;
+    }
+    .five-sections {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto); 
+        margin-left: .2rem;
+        margin-top: 2rem;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .teams-gud, .teams-fydt, .teams-colorstack, .teams-devlup, .teams-fydt23 {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+   
+    .request-desc {
+        width: 80%;
+        margin-left: 2rem;
+      
+    }
+    
+    
+}

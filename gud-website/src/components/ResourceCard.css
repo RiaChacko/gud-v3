@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:200);
+
+.resource-card-container {
+    background-color: white;
+    width: 26rem;
+    height: 11.5rem;
+    margin: 2.2rem 0px 0px 14vw; 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-image {
+    width: 10rem;
+    height: 9rem;
+    margin: 1rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;;
+}
+
+.card-content {
+    width: 12rem;
+    height: 10rem;
+    padding-left: 0;
+    padding-top: 1rem;
+}
+
+.card-title{
+    margin: 0;
+    padding: 0;
+}
+
+.webpage {
+    font-family: 'Lato';
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0.75rem 0 0 0;
+}
+
+.rc-description {
+    font-family: 'Lato';
+    font-weight: 200;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.learn-more-btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: 0.65rem;
+    background-color: #E2EAFF;
+    padding: 0.4rem 1.5rem;
+    padding-bottom: 0.4rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    color: #0071E3;
+}
+
+.learn-more-btn:hover{
+    cursor: pointer;
+}
+
+
+/*Mobile*/
+@media (max-width:768px) {
+    .resource-card-container {
+        width: 24rem;
+        margin: 2.2rem 0px 0px 4vw; 
+    }
+    
+}

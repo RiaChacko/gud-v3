@@ -1,0 +1,56 @@
+.officers-container {
+    position: relative;
+    top:3.73rem;
+    height: 75rem;
+}
+
+
+.e-board{
+    margin-left: 14vw;
+    margin-top: -0.5rem;
+    padding-top: 0;
+}
+h2 {
+    margin-left: 14vw;
+    margin-top: -0.5rem;
+    padding-top: 0;
+}
+
+.officers-container h3{
+    margin-left: 13rem;
+    margin-top: 5rem;
+}
+
+.directors-heading {
+    margin-top: 3rem;
+}
+.e-board-mobile{
+    display: none;
+}
+/* Mobile View */
+
+@media (max-width: 768px) {
+
+    .officers-container {
+        position: relative;
+        top:5.73rem;
+        height: 135rem;
+    }
+    .officers-container h1{
+        display: none;
+    }
+    .e-board{
+        display: none;
+    }
+    .e-board-mobile{
+        display: block;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+    .directors-heading  {
+        position: relative;
+        left: 0;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+}

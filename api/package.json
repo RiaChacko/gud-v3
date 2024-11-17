@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+   
+  },
+  "type": "module",
+  "name": "gud-website",
+  "description": "## Progress Done So Far:   - Set up the routing for the website   - Added the footer and navbar to the website pages   - Added sections to the landing page   - Added sections to the about page   - Added sections to the design team page ## Parts Left To Do:   - Finish the landing page by adding functionality to the carousel of images and the collapsable FAQ bar.   - Finish the our history section in the about section   - Add a basic skeleton to all the pages of the website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

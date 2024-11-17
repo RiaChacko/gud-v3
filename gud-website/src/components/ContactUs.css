@@ -1,0 +1,31 @@
+.contact-btn{
+    margin-left: 13rem;
+    background-color: #E2EAFF;
+    color: #0071E3;
+    border: none;
+    width: 7.5%;
+    height: 2.5rem;
+    border-radius: 13px;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+/* Mobile Views */
+@media (max-width:768px) {
+    .contact-btn{
+        margin-left: 2rem;
+        background-color: #E2EAFF;
+        color: #0071E3;
+        border: none;
+        width: 6rem;
+        height: 2.5rem;
+        border-radius: 12px;
+        font-size: .8rem;
+        font-weight: 400;
+        margin-top: 1.2rem;
+        cursor: pointer;
+    }
+    
+}

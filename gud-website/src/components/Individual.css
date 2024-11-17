@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:200);
+
+.individual-card-container {
+    background-color: white;
+    width: 12.8rem;
+    height: 16rem;
+    margin-left: 0;
+    margin-top: -0.2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+
+.image-container {
+    width: 11.27rem;
+    height: 11rem;
+    background-color: rgb(240, 241, 249);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.image-container img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.individual-name {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 0.3rem;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 0;
+    text-align: left;
+    width: 100%; /* Ensures it spans the entire width of the container */
+    padding-left: 0.75rem; /* Adjust padding as needed for desired left spacing */
+}
+
+.individual-position {
+    color: #9068FF;
+
+    text-align: center;
+}
+
+.individual-icon-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+    width: 100%; /* Ensures it spans the entire width of the container */
+    padding-left: 0.9rem; /* Adjust padding as needed for desired left spacing */
+}
+
+.individual-icon-container img {
+    position: relative;
+    align-items: center;
+    top: 0;
+    width: 1.13rem;
+    height: 1.13rem;
+    margin-top: 0.3rem; 
+    display: inline-flex;
+   
+}

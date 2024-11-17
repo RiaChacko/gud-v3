@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:200);
+
+.eboard-card-container {
+    background-color: white;
+    width: 12.8rem;
+    height: 15.5rem;
+    margin-left: 0;
+    margin-top: -0.2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.eboard-image {
+    background-color: rgb(240, 241, 249);
+    width: 11.27rem;
+    /* height: 11rem; */
+    margin-top: 0.7rem;
+    margin-left: 0.75rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.eboard-name {
+    top: 7.2rem;
+    left: -12.2rem;
+    position: absolute;
+}
+
+.eboard-position {
+    position: absolute;
+    margin-top: 13.8rem;
+    margin-left: 0.85rem;
+    color: #9068FF;
+}
+
+.eboard-icon {
+    position: absolute;
+    top: 13.7rem;
+    left: 9.5rem;
+    width: 1.13rem;
+}
+
+
+@media (max-width:768px) {
+   
+    
+}

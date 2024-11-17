@@ -1,0 +1,26 @@
+.directors-section-container {
+    margin-top: 0.2rem;
+    margin-left: 16.5rem;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 4.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .directors-section-container {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        flex-direction: row;
+        justify-content: space-evenly; /* Ensure cards are evenly spaced */
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    /* Remove individual child targeting for cleaner layout */
+    .directors-section-container > * {
+        margin: 0; /* Let flexbox handle layout without custom margins */
+    }
+}
