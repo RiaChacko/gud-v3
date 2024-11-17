@@ -17,7 +17,9 @@ mongoose.connect(process.env.MONGO).then(()=>{
 const app = express();
 const port = process.env.PORT || 4000;
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://gud-v3-frontend.onrender.com',  // Frontend URL
+}));
 
 
 app.use('/api/signup', signUpRoute);
