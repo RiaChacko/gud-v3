@@ -289,8 +289,9 @@ p {
         font-size: medium;
 
     }
+    // 125vh
     .full-container {
-        height: 125vh;
+        height: 140vh;
     }
     .full-container.collapsed {
         height: 155vh; 
