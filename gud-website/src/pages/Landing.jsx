@@ -27,7 +27,7 @@ function Landing() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try{
-            const response = await axios.post('http://localhost:3000/api/signup',{email});
+            const response = await axios.post('https://gud-backend.onrender.com/api/signup',{email});
             if(response.status === 201){
                 toast.success('Signed up successfully!', {
                     position: "top-right",
