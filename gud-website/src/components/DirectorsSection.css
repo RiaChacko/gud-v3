@@ -8,6 +8,12 @@
     gap: 4.5rem;
 }
 
+@media (max-width:1440px) {
+    .directors-section-container{
+        margin-left: 12rem;
+    }
+    
+}
 
 @media (max-width: 768px) {
     .directors-section-container {
