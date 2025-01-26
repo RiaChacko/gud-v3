@@ -13,7 +13,11 @@
 .individual-section-container > *:nth-child(5) {
     margin-left: 9.6rem; 
 }
-
+@media(max-width:1440px){
+    .individual-section-container{
+        margin-left: 19rem;
+    }
+}
 
 @media (max-width: 768px) {
     .individual-section-container{
