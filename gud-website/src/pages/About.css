@@ -141,7 +141,16 @@
     width: 100%;
     display: none; 
 }
-
+@media (max-width:1440px){
+    .focus-fields .three-sections{
+        margin-left: 4rem;
+    }
+    .our-history-title{
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+    }
+    
+}
 /* Mobile Views */
 
 @media (max-width:768px){
