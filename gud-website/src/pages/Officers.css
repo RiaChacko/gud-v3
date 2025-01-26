@@ -27,6 +27,12 @@ h2 {
 .e-board-mobile{
     display: none;
 }
+
+@media(max-width: 1440px){
+    .officers-container{
+        height: 95rem;
+    }
+}
 /* Mobile View */
 
 @media (max-width: 768px) {
