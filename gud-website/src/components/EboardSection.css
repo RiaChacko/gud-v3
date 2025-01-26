@@ -12,6 +12,12 @@
     margin-right: 0;
 } */
 
+@media (max-width:1440px) {
+    .eboard-section-container{
+        margin-left: 12rem;
+    }
+    
+}
 /* Mobile */
 
 @media (max-width: 768px) {
