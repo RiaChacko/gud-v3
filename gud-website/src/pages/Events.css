@@ -26,6 +26,11 @@
     margin: auto auto;
 }
 
+@media(max-width:1440px){
+    .upcoming-events-container{
+        margin-left: 12.5rem;
+    }
+}
 
 /*Mobile Views*/
 
