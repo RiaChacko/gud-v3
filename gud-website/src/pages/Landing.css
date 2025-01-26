@@ -236,6 +236,15 @@ p {
     margin-bottom: 0; 
     padding-bottom: 0; 
 }
+
+@media (max-width:1440px){
+    .description-title{
+        margin-left: 15.5rem;
+    }
+    .full-container{
+        height: 193vh;
+    }
+}
   
   
 /* Mobile Views */
