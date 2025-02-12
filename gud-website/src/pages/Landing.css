@@ -2,10 +2,12 @@
 
 .full-container {
     top: 3.75rem;
-    height: 187vh;
+    min-height: 187vh;
+    height: auto;
 }
 .full-container.collapsed {
-    height: 210vh; /* Adjust this value as needed */
+    //height: 210vh; /* Adjust this value as needed */
+    height: auto;
 }
 
 .container {
@@ -42,6 +44,7 @@
     margin-left: 26rem;
     margin-bottom: 0;
     width: fit-content;
+
    
 }
 
@@ -58,7 +61,10 @@ p {
 .description p {
     margin: auto;
     background-color: white;
-    width: 60rem;
+    /* width: 60rem; */
+    width: 80%; /* Adapts to screen size */
+    max-width: 60rem; /* Prevents it from becoming too wide */
+    min-width: 300px; /* Ensures it does not shrink too much */
     padding: 1rem 3rem 1.75rem 3rem;
     border-radius: 1rem;
     margin-bottom: 3.5rem;
@@ -67,6 +73,13 @@ p {
     padding-top: 1.5rem;
     align-items: center;
     justify-content: center;
+
+    
+    /* fix the word wrap */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+
 
 }
 
@@ -157,7 +170,8 @@ p {
     margin: auto;
     padding: 0.5vw 1.5vw;
     border-radius: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 5rem;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
   
 }
@@ -233,8 +247,11 @@ p {
 }
 
 .newsletter {
-    margin-bottom: 0; 
-    padding-bottom: 0; 
+    /* margin-bottom: 0; 
+    padding-bottom: 0;  */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 @media (max-width:1440px){
@@ -252,6 +269,7 @@ p {
 @media (max-width: 768px) {
     .description-title{
         margin-left: 1.3rem;
+        
     }
 
     .description p{
@@ -259,6 +277,7 @@ p {
         padding: 1rem 2rem 1.5rem 2rem;
         font-size: .9rem;
         text-align: left;
+        
     }
 
     .four-sections {
@@ -300,7 +319,8 @@ p {
     }
     // 125vh
     .full-container {
-        height: 140vh;
+        /* height: 140vh; */
+        height: auto;
     }
     .full-container.collapsed {
         height: 155vh; 
