@@ -5,7 +5,9 @@
 .dt-container {
     position: relative;
     top:4rem;
-    height: 117rem;
+    /* min-height: 100vh; */
+    min-height: auto;
+    padding-bottom: 10rem;
     left: 12rem;
 }
 
@@ -47,13 +49,15 @@
 
 
 .five-sections{
-    display: grid;
+    display: flex;
     row-gap: 3rem;
     column-gap: 10rem;
-    grid-template-columns: repeat(2, .05fr);
-    grid-template-rows: repeat(2,.05fr);
+    /* grid-template-columns: repeat(2, .05fr);
+    grid-template-rows: repeat(2,.05fr); */
     margin-left: 13rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     
     
@@ -100,7 +104,7 @@
 @media (max-width:1440px) {
     .dt-container{
         left: 5.5rem;
-        height: 125rem;
+        height: auto;
     }
     
 }
@@ -110,7 +114,8 @@
 @media (max-width:768px){
     .dt-container{
         left: 0;
-        height: 173rem;
+        height: auto;
+        padding-bottom: 12rem;
     }
     .dt-container h1{
         margin-left: 2rem;
