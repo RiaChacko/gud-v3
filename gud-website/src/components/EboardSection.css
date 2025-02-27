@@ -2,9 +2,11 @@
     margin-top: 0.2rem;
     margin-left: 15rem;
     padding: 0px;
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
     gap: 4.5rem;
 }
 
@@ -23,8 +25,16 @@
 @media (max-width: 768px) {
     .eboard-section-container{
         margin: .3rem;
+        margin-right: 0.3rem;
+        flex-direction: row;
+        justify-content: space-evenly; /* Ensure cards are evenly spaced */
+        gap: 1rem;
+        width: 100%;
+
+        /*
         display: grid; /* Switch to grid display for mobile */
-        grid-template-columns: repeat(2, 1fr); /* Define 2 columns */
-        gap: .7rem; /* Adjust the gap as needed for mobile view */
+        /*grid-template-columns: repeat(2, 1fr); /* Define 2 columns */
+        /* gap: .7rem; Adjust the gap as needed for mobile view */
+        
     }
 }

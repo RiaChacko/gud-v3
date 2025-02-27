@@ -1,7 +1,10 @@
 .officers-container {
     position: relative;
     top:3.73rem;
-    height: 75rem;
+    /* height: 75rem; */
+    min-height: 100vh;
+    padding-bottom: 8rem;
+    /* overflow-x: hidden; */
 }
 
 
@@ -30,7 +33,9 @@ h2 {
 
 @media(max-width: 1440px){
     .officers-container{
-        height: 95rem;
+        /* height: 95rem; */
+        min-height: auto;
+        padding-bottom: 10rem;
     }
 }
 /* Mobile View */
@@ -40,7 +45,10 @@ h2 {
     .officers-container {
         position: relative;
         top:5.73rem;
-        height: 135rem;
+        /* height: 135rem; */
+        height: auto;
+        padding-bottom: 12rem;
+
     }
     .officers-container h1{
         display: none;
@@ -52,11 +60,14 @@ h2 {
         display: block;
         margin-left: 1rem;
         font-size: 2.5rem;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
     .directors-heading  {
         position: relative;
         left: 0;
         margin-left: 1rem;
         font-size: 2.5rem;
+        margin-bottom: 3rem;
     }
 }
